@@ -1,0 +1,14 @@
+type Todo @model {
+  id: ID!
+  name: String!
+  description: String
+}
+
+type Banner {
+  title: String
+  message: String
+}
+
+type Query {
+  getBanner: Banner
+}
