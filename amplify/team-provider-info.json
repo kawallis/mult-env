@@ -10,5 +10,17 @@
             "StackName": "doggie-20190115213920",
             "StackId": "arn:aws:cloudformation:us-west-2:603436020307:stack/doggie-20190115213920/12f9b1b0-1951-11e9-aecf-0aa3372404a6"
         }
+    },
+    "test": {
+        "awscloudformation": {
+            "AuthRoleName": "doggie-20190115215653-authRole",
+            "UnauthRoleArn": "arn:aws:iam::603436020307:role/doggie-20190115215653-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::603436020307:role/doggie-20190115215653-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "doggie-20190115215653-deployment",
+            "UnauthRoleName": "doggie-20190115215653-unauthRole",
+            "StackName": "doggie-20190115215653",
+            "StackId": "arn:aws:cloudformation:us-west-2:603436020307:stack/doggie-20190115215653/86a040a0-1953-11e9-9db4-0a608bc1c1d0"
+        }
     }
 }

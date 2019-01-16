@@ -4,6 +4,10 @@ type Todo @model {
   description: String
 }
 
+type Dog {
+  name: String
+}
+
 type Banner {
   title: String
   message: String

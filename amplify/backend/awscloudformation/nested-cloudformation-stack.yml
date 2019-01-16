@@ -81,14 +81,14 @@
 		"apidoggie": {
 			"Type": "AWS::CloudFormation::Stack",
 			"Properties": {
-				"TemplateURL": "https://s3.amazonaws.com/doggie-20190115213920-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+				"TemplateURL": "https://s3.amazonaws.com/doggie-20190115215653-deployment/amplify-cfn-templates/api/cloudformation-template.json",
 				"Parameters": {
 					"AppSyncApiName": "doggie",
-					"schemaGraphql": "s3://doggie-20190115213920-deployment/amplify-appsync-files/schema.graphql.1547617408854",
-					"ResolverBucket": "doggie-20190115213920-deployment",
+					"schemaGraphql": "s3://doggie-20190115215653-deployment/amplify-appsync-files/schema.graphql.1547618734141",
+					"ResolverBucket": "doggie-20190115215653-deployment",
 					"ResolverRootKey": "amplify-appsync-files",
-					"DeploymentTimestamp": "1547617408854",
-					"env": "dev"
+					"DeploymentTimestamp": "1547618734141",
+					"env": "test"
 				}
 			}
 		}
